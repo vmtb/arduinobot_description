@@ -1,0 +1,25 @@
+[0.290s] Invoking command in '/home/marcos/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marcos/ros2_ws/install/turtle_catch_them_all:/home/marcos/ros2_ws/install/my_py_pkg:/home/marcos/ros2_ws/install/exo1_py:/opt/ros/humble /usr/bin/cmake --build /home/marcos/arduinobot_ws/build/arduinobot_cpp_examples -- -j2 -l2
+[2.198s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[13.420s] [100%] [32m[1mLinking CXX executable simple_publisher[0m
+[13.812s] [100%] Built target simple_publisher
+[13.834s] Invoked command in '/home/marcos/arduinobot_ws/build/arduinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marcos/ros2_ws/install/turtle_catch_them_all:/home/marcos/ros2_ws/install/my_py_pkg:/home/marcos/ros2_ws/install/exo1_py:/opt/ros/humble /usr/bin/cmake --build /home/marcos/arduinobot_ws/build/arduinobot_cpp_examples -- -j2 -l2
+[13.872s] Invoking command in '/home/marcos/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marcos/ros2_ws/install/turtle_catch_them_all:/home/marcos/ros2_ws/install/my_py_pkg:/home/marcos/ros2_ws/install/exo1_py:/opt/ros/humble /usr/bin/cmake --install /home/marcos/arduinobot_ws/build/arduinobot_cpp_examples
+[13.880s] -- Install configuration: ""
+[13.882s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_publisher
+[13.884s] -- Set runtime path of "/home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_publisher" to ""
+[13.884s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/arduinobot_cpp_examples
+[13.884s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/arduinobot_cpp_examples
+[13.884s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/ament_prefix_path.sh
+[13.885s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/ament_prefix_path.dsv
+[13.885s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/path.sh
+[13.885s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/path.dsv
+[13.885s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.bash
+[13.885s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.sh
+[13.886s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.zsh
+[13.886s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.dsv
+[13.886s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.dsv
+[13.886s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/packages/arduinobot_cpp_examples
+[13.886s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/cmake/arduinobot_cpp_examplesConfig.cmake
+[13.886s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/cmake/arduinobot_cpp_examplesConfig-version.cmake
+[13.887s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.xml
+[13.889s] Invoked command in '/home/marcos/arduinobot_ws/build/arduinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marcos/ros2_ws/install/turtle_catch_them_all:/home/marcos/ros2_ws/install/my_py_pkg:/home/marcos/ros2_ws/install/exo1_py:/opt/ros/humble /usr/bin/cmake --install /home/marcos/arduinobot_ws/build/arduinobot_cpp_examples

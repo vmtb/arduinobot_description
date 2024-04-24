@@ -1,0 +1,46 @@
+[0.191s] Invoking command in '/home/marcos/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marcos/ros2_ws/install/turtle_catch_them_all:/home/marcos/ros2_ws/install/my_py_pkg:/home/marcos/ros2_ws/install/exo1_py:/opt/ros/humble /usr/bin/cmake --build /home/marcos/arduinobot_ws/build/arduinobot_cpp_examples -- -j2 -l2
+[0.248s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.590s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.655s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.660s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.673s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.697s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.731s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.859s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.862s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.127s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.478s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.666s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.667s] -- Configured cppcheck include dirs: 
+[1.667s] -- Configured cppcheck exclude dirs and/or files: 
+[1.667s] -- Added test 'lint_cmake' to check CMake code style
+[1.669s] -- Added test 'uncrustify' to check C / C++ code style
+[1.669s] -- Configured uncrustify additional arguments: 
+[1.670s] -- Added test 'xmllint' to check XML markup files
+[1.671s] -- Configuring done
+[1.705s] -- Generating done
+[1.710s] -- Build files have been written to: /home/marcos/arduinobot_ws/build/arduinobot_cpp_examples
+[1.808s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[16.537s] [100%] [32m[1mLinking CXX executable simple_publisher[0m
+[17.003s] [100%] Built target simple_publisher
+[17.030s] Invoked command in '/home/marcos/arduinobot_ws/build/arduinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marcos/ros2_ws/install/turtle_catch_them_all:/home/marcos/ros2_ws/install/my_py_pkg:/home/marcos/ros2_ws/install/exo1_py:/opt/ros/humble /usr/bin/cmake --build /home/marcos/arduinobot_ws/build/arduinobot_cpp_examples -- -j2 -l2
+[17.122s] Invoking command in '/home/marcos/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marcos/ros2_ws/install/turtle_catch_them_all:/home/marcos/ros2_ws/install/my_py_pkg:/home/marcos/ros2_ws/install/exo1_py:/opt/ros/humble /usr/bin/cmake --install /home/marcos/arduinobot_ws/build/arduinobot_cpp_examples
+[17.141s] -- Install configuration: ""
+[17.142s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_publisher
+[17.145s] -- Set runtime path of "/home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_publisher" to ""
+[17.146s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/arduinobot_cpp_examples
+[17.148s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/arduinobot_cpp_examples
+[17.148s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/ament_prefix_path.sh
+[17.149s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/ament_prefix_path.dsv
+[17.149s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/path.sh
+[17.150s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/path.dsv
+[17.151s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.bash
+[17.151s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.sh
+[17.151s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.zsh
+[17.152s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.dsv
+[17.153s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.dsv
+[17.153s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/packages/arduinobot_cpp_examples
+[17.154s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/cmake/arduinobot_cpp_examplesConfig.cmake
+[17.154s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/cmake/arduinobot_cpp_examplesConfig-version.cmake
+[17.155s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.xml
+[17.160s] Invoked command in '/home/marcos/arduinobot_ws/build/arduinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marcos/ros2_ws/install/turtle_catch_them_all:/home/marcos/ros2_ws/install/my_py_pkg:/home/marcos/ros2_ws/install/exo1_py:/opt/ros/humble /usr/bin/cmake --install /home/marcos/arduinobot_ws/build/arduinobot_cpp_examples

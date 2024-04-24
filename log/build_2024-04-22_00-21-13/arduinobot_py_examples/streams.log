@@ -1,0 +1,18 @@
+[0.485s] Invoking command in '/home/marcos/arduinobot_ws/build/arduinobot_py_examples': PYTHONPATH=/home/marcos/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/home/marcos/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/marcos/arduinobot_ws/build/arduinobot_py_examples/build --no-deps symlink_data
+[0.686s] running develop
+[0.800s] running egg_info
+[0.800s] writing arduinobot_py_examples.egg-info/PKG-INFO
+[0.800s] writing dependency_links to arduinobot_py_examples.egg-info/dependency_links.txt
+[0.801s] writing entry points to arduinobot_py_examples.egg-info/entry_points.txt
+[0.801s] writing requirements to arduinobot_py_examples.egg-info/requires.txt
+[0.801s] writing top-level names to arduinobot_py_examples.egg-info/top_level.txt
+[0.802s] reading manifest file 'arduinobot_py_examples.egg-info/SOURCES.txt'
+[0.803s] writing manifest file 'arduinobot_py_examples.egg-info/SOURCES.txt'
+[0.804s] running build_ext
+[0.804s] Creating /home/marcos/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot-py-examples.egg-link (link to .)
+[0.805s] Installing simple_parameter script to /home/marcos/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[0.805s] Installing simple_publisher script to /home/marcos/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[0.805s] 
+[0.805s] Installed /home/marcos/arduinobot_ws/build/arduinobot_py_examples
+[0.805s] running symlink_data
+[0.827s] Invoked command in '/home/marcos/arduinobot_ws/build/arduinobot_py_examples' returned '0': PYTHONPATH=/home/marcos/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/home/marcos/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/marcos/arduinobot_ws/build/arduinobot_py_examples/build --no-deps symlink_data
