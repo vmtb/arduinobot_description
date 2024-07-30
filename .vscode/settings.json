@@ -1,0 +1,29 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/marcos/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages",
+        "/home/marcos/ros2_ws/build/turtle_catch_them_all",
+        "/home/marcos/ros2_ws/install/turtle_catch_them_all/lib/python3.10/site-packages",
+        "/home/marcos/ros2_ws/install/my_turtle_interfaces/local/lib/python3.10/dist-packages",
+        "/home/marcos/ros2_ws/build/my_py_pkg",
+        "/home/marcos/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages",
+        "/home/marcos/ros2_ws/build/exo1_py",
+        "/home/marcos/ros2_ws/install/exo1_py/lib/python3.10/site-packages",
+        "/home/marcos/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/marcos/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages",
+        "/home/marcos/ros2_ws/build/turtle_catch_them_all",
+        "/home/marcos/ros2_ws/install/turtle_catch_them_all/lib/python3.10/site-packages",
+        "/home/marcos/ros2_ws/install/my_turtle_interfaces/local/lib/python3.10/dist-packages",
+        "/home/marcos/ros2_ws/build/my_py_pkg",
+        "/home/marcos/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages",
+        "/home/marcos/ros2_ws/build/exo1_py",
+        "/home/marcos/ros2_ws/install/exo1_py/lib/python3.10/site-packages",
+        "/home/marcos/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "ros.distro": "humble"
+}

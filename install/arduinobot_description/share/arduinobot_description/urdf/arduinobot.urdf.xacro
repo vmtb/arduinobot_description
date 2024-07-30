@@ -127,4 +127,23 @@
         <mimic joint="joint_4" multiplier="-1" />
         <limit lower="0.0" upper="${PI/2}" effort="${effort}" velocity="${velocity}" /> 
     </joint>
+
+    <link name="rgb_camera">
+        <visual>
+            <origin rpy="0 -0.5 1.57" xyz="0 0.45 0.2" />
+            <geometry>
+                <mesh filename="package://arduinobot_description/meshes/pi_camera.STL" scale="0.01 0.01 0.01" />
+            </geometry>
+        </visual> 
+    </link>
+
+    <joint name="rgb_camera_joint" type="revolute">
+        <parent link="base_link" /> 
+        <child link="rgb_camera"  />
+        <origin rpy="0 -${PI/6} ${PI/2}" xyz="0 0.45 0.2" /> 
+        <axis xyz="0 0 1"/>
+        <limit lower="0.0" upper="${PI/2}" effort="${effort}" velocity="${velocity}" />
+    </joint>
+
+  
 </robot>
