@@ -45,6 +45,7 @@ endif()
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_description" TYPE DIRECTORY FILES
     "/home/marcos/arduinobot_ws/src/arduinobot_description/meshes"
+    "/home/marcos/arduinobot_ws/src/arduinobot_description/models"
     "/home/marcos/arduinobot_ws/src/arduinobot_description/urdf"
     "/home/marcos/arduinobot_ws/src/arduinobot_description/launch"
     "/home/marcos/arduinobot_ws/src/arduinobot_description/rviz"
