@@ -1,0 +1,61 @@
+[0.038s] Invoking command in '/home/marcos/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marcos/arduinobot_ws/install/arduinobot_py_examples:/home/marcos/ros2_ws/install/turtle_catch_them_all:/home/marcos/ros2_ws/install/my_py_pkg:/home/marcos/ros2_ws/install/exo1_py:/opt/ros/humble /usr/bin/cmake /home/marcos/arduinobot_ws/src/arduinobot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/marcos/arduinobot_ws/install/arduinobot_description
+[0.113s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.499s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.592s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.832s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.836s] -- Added test 'lint_cmake' to check CMake code style
+[0.841s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.845s] -- Added test 'xmllint' to check XML markup files
+[0.848s] -- Configuring done
+[0.872s] -- Generating done
+[0.876s] -- Build files have been written to: /home/marcos/arduinobot_ws/build/arduinobot_description
+[0.885s] Invoked command in '/home/marcos/arduinobot_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marcos/arduinobot_ws/install/arduinobot_py_examples:/home/marcos/ros2_ws/install/turtle_catch_them_all:/home/marcos/ros2_ws/install/my_py_pkg:/home/marcos/ros2_ws/install/exo1_py:/opt/ros/humble /usr/bin/cmake /home/marcos/arduinobot_ws/src/arduinobot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/marcos/arduinobot_ws/install/arduinobot_description
+[0.892s] Invoking command in '/home/marcos/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marcos/arduinobot_ws/install/arduinobot_py_examples:/home/marcos/ros2_ws/install/turtle_catch_them_all:/home/marcos/ros2_ws/install/my_py_pkg:/home/marcos/ros2_ws/install/exo1_py:/opt/ros/humble /usr/bin/cmake --build /home/marcos/arduinobot_ws/build/arduinobot_description -- -j2 -l2
+[0.987s] Invoked command in '/home/marcos/arduinobot_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marcos/arduinobot_ws/install/arduinobot_py_examples:/home/marcos/ros2_ws/install/turtle_catch_them_all:/home/marcos/ros2_ws/install/my_py_pkg:/home/marcos/ros2_ws/install/exo1_py:/opt/ros/humble /usr/bin/cmake --build /home/marcos/arduinobot_ws/build/arduinobot_description -- -j2 -l2
+[1.078s] Invoking command in '/home/marcos/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marcos/arduinobot_ws/install/arduinobot_py_examples:/home/marcos/ros2_ws/install/turtle_catch_them_all:/home/marcos/ros2_ws/install/my_py_pkg:/home/marcos/ros2_ws/install/exo1_py:/opt/ros/humble /usr/bin/cmake --install /home/marcos/arduinobot_ws/build/arduinobot_description
+[1.098s] -- Install configuration: ""
+[1.100s] -- Execute custom install script
+[1.102s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/base_plate.STL
+[1.125s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/basement.STL
+[1.154s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/claw_support.STL
+[1.176s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/forward_drive_arm.STL
+[1.197s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/horizontal_arm.STL
+[1.222s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/left_finger.STL
+[1.245s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/link.STL
+[1.267s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/pi_camera.STL
+[1.288s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/plate.STL
+[1.308s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/right_finger.STL
+[1.330s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/round_plate.STL
+[1.354s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/servo_plate.STL
+[1.379s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/triangular_link.STL
+[1.413s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/vertical_drive_arm.STL
+[1.448s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/ground_plane/model-1_2.sdf
+[1.475s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/ground_plane/model-1_3.sdf
+[1.494s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/ground_plane/model-1_4.sdf
+[1.515s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/ground_plane/model.config
+[1.536s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/ground_plane/model.sdf
+[1.560s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/sun/model-1_2.sdf
+[1.582s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/sun/model-1_3.sdf
+[1.600s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/sun/model-1_4.sdf
+[1.619s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/sun/model.config
+[1.636s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/sun/model.sdf
+[1.656s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot.urdf.xacro
+[1.675s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/display.launch.py
+[1.693s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/gazebo.launch.py
+[1.711s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/rviz/display.rviz
+[1.730s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/package_run_dependencies/arduinobot_description
+[1.750s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/parent_prefix_path/arduinobot_description
+[1.769s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.sh
+[1.787s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.dsv
+[1.805s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/path.sh
+[1.823s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/path.dsv
+[1.841s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.bash
+[1.869s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.sh
+[1.889s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.zsh
+[1.912s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.dsv
+[1.932s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.dsv
+[1.957s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/packages/arduinobot_description
+[1.983s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig.cmake
+[2.006s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig-version.cmake
+[2.027s] -- Symlinking: /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.xml
+[2.052s] Invoked command in '/home/marcos/arduinobot_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marcos/arduinobot_ws/install/arduinobot_py_examples:/home/marcos/ros2_ws/install/turtle_catch_them_all:/home/marcos/ros2_ws/install/my_py_pkg:/home/marcos/ros2_ws/install/exo1_py:/opt/ros/humble /usr/bin/cmake --install /home/marcos/arduinobot_ws/build/arduinobot_description

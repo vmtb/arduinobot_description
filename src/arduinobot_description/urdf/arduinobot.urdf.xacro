@@ -2,24 +2,38 @@
 
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="arduinobot"> 
     
+    <xacro:include filename="$(find arduinobot_description)/urdf/arduinobot_gazebo.xacro" />
+    <xacro:include filename="$(find arduinobot_description)/urdf/arduinobot_ros2_control.xacro" />
+
     <xacro:property name="PI" value="3.14159" />
     <xacro:property name="effort" value="30.0" />
     <xacro:property name="velocity" value="10.0" />
-    <xacro:macro name="default_inertia" params="mass"> 
-        <inertia>
+    <xacro:macro name="default_inertial" params="mass"> 
+        <inertial>
             <mass value="${mass}" />
             <inertia ixx="1.0" ixy="0.0" ixz="0.0"
                     iyy="1.0" iyz="0.0"
                     izz="1.0" />
-        </inertia>
+        </inertial>
     </xacro:macro>
+    <xacro:macro name="default_transmission" params="number"> 
+        <transmission name="transmission_${number}"> 
+            <plugin>transmission_interface/SimpleTransmission</plugin>
+            <actuator name="motor_${number}" role="actuator1"/>
+            <joint name="joint_${number}" role="joint1">
+                <!-- 1 deg of rotation of the motor correspond to 1 deg of rotation of the joint -->
+                <mechanical_reduction>1.0</mechanical_reduction>
+            </joint>
+        </transmission>
+    </xacro:macro>
+
 
 
     <link name="world" />
 
     <link name="base_link">
 
-        <xacro:default_inertia  mass="1.0" />
+        <xacro:default_inertial  mass="1.0" />
 
         <visual>
             <origin rpy="0 0 0" xyz="-0.5 -0.5 0" />
@@ -43,7 +57,7 @@
     </joint>
 
     <link name="base_plate">
-        <xacro:default_inertia  mass="1.0" />
+        <xacro:default_inertial  mass="1.0" />
 
         <visual>
             <origin rpy="0 0 0" xyz="-0.39 -0.39 -0.56" />
@@ -51,7 +65,7 @@
                 <mesh filename="package://arduinobot_description/meshes/base_plate.STL" scale="0.01 0.01 0.01" />
             </geometry>
         </visual> 
-        
+
         <collision> 
             <origin rpy="0 0 0" xyz="-0.39 -0.39 -0.56" />
             <geometry>
@@ -69,7 +83,7 @@
     </joint>
 
     <link name="forward_drive_arm">
-        <xacro:default_inertia  mass="0.1" />
+        <xacro:default_inertial  mass="0.1" />
 
         <visual>
             <origin rpy="0 -${PI/2} ${PI/2}" xyz="0.19 0.06 -0.06" />
@@ -94,7 +108,7 @@
     </joint>
 
     <link name="horizontal_arm">
-        <xacro:default_inertia  mass="0.1" />
+        <xacro:default_inertial  mass="0.1" />
         <visual>
             <origin rpy="${PI/2} 0 ${PI/2}" xyz="-0.03 -0.4 -0.06" />  <!-- la position de l'origine dans le visual-->  
             <geometry>
@@ -118,7 +132,7 @@
     </joint>
 
     <link name="claw_support">
-        <xacro:default_inertia  mass="0.05" />
+        <xacro:default_inertial  mass="0.05" />
         <visual>
             <origin rpy="0 0 ${PI/2}" xyz="0 -0.05 -0.15" />  <!-- la position de l'origine dans le visual-->  
             <geometry>
@@ -141,7 +155,7 @@
      
 
     <link name="gripper_right">
-        <xacro:default_inertia  mass="0.01" />
+        <xacro:default_inertial  mass="0.01" />
         <visual>
             <origin rpy="0 0 -${PI/2}" xyz="-0.1 0.5 -0.1" />  <!-- la position de l'origine dans le visual-->  
             <geometry>
@@ -158,7 +172,7 @@
     
 
     <link name="gripper_left">
-        <xacro:default_inertia  mass="0.01" />
+        <xacro:default_inertial  mass="0.01" />
         <visual> 
             <origin rpy="0 0 -${PI/2}" xyz="-0.04 0.5 -0.1" />  <!-- la position du STL par rapport à son repère link-->  
             <geometry>
@@ -192,8 +206,8 @@
     </joint>
 
     <link name="rgb_camera">
-        <visual>
-            <!--origin rpy="0 ${PI/2} 0" xyz="-0.05 -0.14 0.12" /--> 
+        <xacro:default_inertial  mass="0.001" />
+        <visual> 
             <origin rpy="-1.57 0 -1.57" xyz="-0.1 0.125 0.15"/>
             <geometry>
                 <mesh filename="package://arduinobot_description/meshes/pi_camera.STL" scale="0.01 0.01 0.01" />
@@ -205,16 +219,65 @@
                 <mesh filename="package://arduinobot_description/meshes/pi_camera.STL" scale="0.01 0.01 0.01" />
             </geometry>
         </collision>
+
     </link>
 
     <joint name="rgb_camera_joint" type="fixed">
         <parent link="base_link" /> 
-        <child link="rgb_camera"  />
-        <!--origin rpy="0 -${PI/6} ${PI/2}" xyz="0 0.45 0.2" /--> 
-        <origin rpy="0 -0.5 1.57" xyz="0 0.4 0.2" />  <!-- la position du STL par rapport à son repère link-->  
+        <child link="rgb_camera"  /> 
+        <origin rpy="0 -0.5 1.57" xyz="0 0.4 0.2" />   
         <axis xyz="0 0 1"/>
         <limit lower="-${PI/2}" upper="${PI/2}" effort="${effort}" velocity="${velocity}" />
     </joint>
+
+    <xacro:default_transmission number="1"/>
+    <xacro:default_transmission number="2"/>
+    <xacro:default_transmission number="3"/>
+    <xacro:default_transmission number="4"/>
+
+
+    <!-- -->
+    <gazebo  reference="rgb_camera">
+        
+        <sensor  type="camera" name="rgb_camera">           
+            <always_on>0</always_on> 
+            <!-- fps -->
+            <update_rate>30.0</update_rate> 
+            
+            <camera name="camera_name">
+                <horizontal_fov>1.15</horizontal_fov>
+                <vertical_fov>0.71</vertical_fov>
+                <image>
+                    <width>2304</width>
+                    <height>1296</height>
+                    <format>R8G8B8</format>
+                </image>
+
+              <distortion>
+                <k1>0.1</k1>
+                <k2>0.2</k2>
+                <k3>0.3</k3>
+                <p1>0.4</p1>
+                <p2>0.5</p2>
+                <center>0.5 0.5</center>
+              </distortion>
+            </camera>
+  
+            <!-- Use camera, not camera_triggered -->
+            <plugin name="plugin_name" filename="libgazebo_ros_camera.so"> 
+              <ros>
+                <!-- <namespace>custom_ns</namespace> -->
+                <remapping>image_raw:=image_raw</remapping>
+                <remapping>camera_info:=camera_info</remapping>
+              </ros> 
+              <camera_name>rgb_camera</camera_name> 
+              <frame_name>rgb_camera</frame_name> 
+              <hack_baseline>0.2</hack_baseline> 
+
+            </plugin>
+          </sensor>
+
+    </gazebo>
 
   
 </robot>

@@ -6,25 +6,24 @@ import os
 from os import pathsep
 from ament_index_python.packages import get_package_share_directory, get_package_prefix
 
-from launch.actions import DeclareLaunchArgument, SetEnvironmentVariable, IncludeLaunchDescription
+from launch.actions import DeclareLaunchArgument, SetEnvironmentVariable, IncludeLaunchDescription  
 from launch.launch_description_sources import PythonLaunchDescriptionSource 
 
 def generate_launch_description(): 
     
-    arduinobot_decription = get_package_share_directory("arduinobot_description")
+    arduinobot_description = get_package_share_directory("arduinobot_description")
     arduinobot_description_prefix = get_package_prefix("arduinobot_description")
     
-    model_path = os.path.join(arduinobot_decription, "models")
-    print(model_path)
+    model_path = os.path.join(arduinobot_description, "models")
     model_path += pathsep + os.path.join(arduinobot_description_prefix, "share")
-    print(model_path)
     
-    env_variable = SetEnvironmentVariable("GAZEBO_MODEL_PATH", model_path)
-    
+    env_variable = SetEnvironmentVariable("GAZEBO_MODEL_PATH", model_path) 
+    urdf_path = os.path.join(arduinobot_description, "urdf", "arduinobot.urdf.xacro")
+    print(f"urdf path {urdf_path}")
     
     model_arg = DeclareLaunchArgument(
         name="model", 
-        default_value=os.path.join(arduinobot_decription, "urdf", "arduinobot.urdf.xacro"), 
+        default_value=urdf_path, 
         description="Absolute path to the robot URDF file")
     
     robot_description = ParameterValue(Command(["xacro ", LaunchConfiguration("model")]), value_type=str)
