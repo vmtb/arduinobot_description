@@ -2,12 +2,11 @@
 
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="arduinobot"> 
     
-    <xacro:include filename="$(find arduinobot_description)/urdf/arduinobot_gazebo.xacro" />
-    <xacro:include filename="$(find arduinobot_description)/urdf/arduinobot_ros2_control.xacro" />
 
     <xacro:property name="PI" value="3.14159" />
     <xacro:property name="effort" value="30.0" />
     <xacro:property name="velocity" value="10.0" />
+
     <xacro:macro name="default_inertial" params="mass"> 
         <inertial>
             <mass value="${mass}" />
@@ -16,17 +15,7 @@
                     izz="1.0" />
         </inertial>
     </xacro:macro>
-    <xacro:macro name="default_transmission" params="number"> 
-        <transmission name="transmission_${number}"> 
-            <plugin>transmission_interface/SimpleTransmission</plugin>
-            <actuator name="motor_${number}" role="actuator1"/>
-            <joint name="joint_${number}" role="joint1">
-                <!-- 1 deg of rotation of the motor correspond to 1 deg of rotation of the joint -->
-                <mechanical_reduction>1.0</mechanical_reduction>
-            </joint>
-        </transmission>
-    </xacro:macro>
-
+   
 
 
     <link name="world" />
@@ -230,18 +219,33 @@
         <limit lower="-${PI/2}" upper="${PI/2}" effort="${effort}" velocity="${velocity}" />
     </joint>
 
-    <xacro:default_transmission number="1"/>
+
+     <!-- <xacro:include filename="$(find arduinobot_description)/urdf/arduinobot_gazebo.xacro" />
+    <xacro:include filename="$(find arduinobot_description)/urdf/arduinobot_ros2_control.xacro" /> -->
+
+    
+    <!-- <xacro:macro name="default_transmission" params="number"> 
+        <transmission name="transmission_${number}"> 
+            <plugin>transmission_interface/SimpleTransmission</plugin>
+            <actuator name="motor_${number}" role="actuator1"/>
+            <joint name="joint_${number}" role="joint1"> 
+                <mechanical_reduction>1.0</mechanical_reduction>
+            </joint>
+        </transmission>
+    </xacro:macro> -->
+
+
+    
+    <!-- <xacro:default_transmission number="1"/>
     <xacro:default_transmission number="2"/>
     <xacro:default_transmission number="3"/>
     <xacro:default_transmission number="4"/>
 
-
-    <!-- -->
+ 
     <gazebo  reference="rgb_camera">
         
         <sensor  type="camera" name="rgb_camera">           
-            <always_on>0</always_on> 
-            <!-- fps -->
+            <always_on>0</always_on>  
             <update_rate>30.0</update_rate> 
             
             <camera name="camera_name">
@@ -262,11 +266,9 @@
                 <center>0.5 0.5</center>
               </distortion>
             </camera>
-  
-            <!-- Use camera, not camera_triggered -->
+   
             <plugin name="plugin_name" filename="libgazebo_ros_camera.so"> 
-              <ros>
-                <!-- <namespace>custom_ns</namespace> -->
+              <ros> 
                 <remapping>image_raw:=image_raw</remapping>
                 <remapping>camera_info:=camera_info</remapping>
               </ros> 
@@ -277,7 +279,7 @@
             </plugin>
           </sensor>
 
-    </gazebo>
+    </gazebo> -->
 
   
 </robot>

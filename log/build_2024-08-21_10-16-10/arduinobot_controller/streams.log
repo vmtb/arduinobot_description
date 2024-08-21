@@ -1,0 +1,22 @@
+[0.017s] Invoking command in '/home/marcos/arduinobot_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marcos/arduinobot_ws/install/arduinobot_py_examples:/home/marcos/ros2_ws/install/turtle_catch_them_all:/home/marcos/ros2_ws/install/my_py_pkg:/home/marcos/ros2_ws/install/exo1_py:/opt/ros/humble /usr/bin/cmake --build /home/marcos/arduinobot_ws/build/arduinobot_controller -- -j2 -l2
+[0.072s] Invoked command in '/home/marcos/arduinobot_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marcos/arduinobot_ws/install/arduinobot_py_examples:/home/marcos/ros2_ws/install/turtle_catch_them_all:/home/marcos/ros2_ws/install/my_py_pkg:/home/marcos/ros2_ws/install/exo1_py:/opt/ros/humble /usr/bin/cmake --build /home/marcos/arduinobot_ws/build/arduinobot_controller -- -j2 -l2
+[0.097s] Invoking command in '/home/marcos/arduinobot_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marcos/arduinobot_ws/install/arduinobot_py_examples:/home/marcos/ros2_ws/install/turtle_catch_them_all:/home/marcos/ros2_ws/install/my_py_pkg:/home/marcos/ros2_ws/install/exo1_py:/opt/ros/humble /usr/bin/cmake --install /home/marcos/arduinobot_ws/build/arduinobot_controller
+[0.106s] -- Install configuration: ""
+[0.106s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/config
+[0.106s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/config/arduinobot_controllers.yaml
+[0.107s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/package_run_dependencies/arduinobot_controller
+[0.107s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/parent_prefix_path/arduinobot_controller
+[0.107s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/ament_prefix_path.sh
+[0.107s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/ament_prefix_path.dsv
+[0.108s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/path.sh
+[0.108s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/path.dsv
+[0.109s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.bash
+[0.109s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.sh
+[0.109s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.zsh
+[0.109s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.dsv
+[0.109s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.dsv
+[0.109s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/packages/arduinobot_controller
+[0.109s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/arduinobot_controllerConfig.cmake
+[0.109s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/arduinobot_controllerConfig-version.cmake
+[0.109s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.xml
+[0.115s] Invoked command in '/home/marcos/arduinobot_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marcos/arduinobot_ws/install/arduinobot_py_examples:/home/marcos/ros2_ws/install/turtle_catch_them_all:/home/marcos/ros2_ws/install/my_py_pkg:/home/marcos/ros2_ws/install/exo1_py:/opt/ros/humble /usr/bin/cmake --install /home/marcos/arduinobot_ws/build/arduinobot_controller

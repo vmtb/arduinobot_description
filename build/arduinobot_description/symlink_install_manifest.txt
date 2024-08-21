@@ -23,6 +23,8 @@
 /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/sun/model.config
 /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/sun/model.sdf
 /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot.urdf.xacro
+/home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_gazebo.xacro
+/home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_ros2_control.xacro
 /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/display.launch.py
 /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/gazebo.launch.py
 /home/marcos/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/rviz/display.rviz
