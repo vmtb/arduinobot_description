@@ -1,0 +1,2 @@
+/home/marcos/arduinobot_ws/build/arduinobot_interfaces/rosidl_adapter/arduinobot_interfaces:srv/EulerToQuaternion.idl
+/home/marcos/arduinobot_ws/build/arduinobot_interfaces/rosidl_adapter/arduinobot_interfaces:srv/QuaternionToEuler.idl

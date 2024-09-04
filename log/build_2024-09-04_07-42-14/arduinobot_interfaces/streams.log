@@ -1,0 +1,245 @@
+[0.020s] Invoking command in '/home/marcos/arduinobot_ws/build/arduinobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marcos/ros2_ws/install/turtle_catch_them_all:/home/marcos/ros2_ws/install/my_py_pkg:/home/marcos/ros2_ws/install/exo1_py:/opt/ros/humble /usr/bin/cmake /home/marcos/arduinobot_ws/src/arduinobot_interfaces -DCMAKE_INSTALL_PREFIX=/home/marcos/arduinobot_ws/install/arduinobot_interfaces
+[0.033s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.176s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.179s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.179s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.200s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.524s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.731s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.972s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.003s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.006s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.034s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.036s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.036s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.036s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.061s] -- Found PythonExtra: .so  
+[1.111s] -- Configuring done
+[1.161s] -- Generating done
+[1.165s] -- Build files have been written to: /home/marcos/arduinobot_ws/build/arduinobot_interfaces
+[1.179s] Invoked command in '/home/marcos/arduinobot_ws/build/arduinobot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marcos/ros2_ws/install/turtle_catch_them_all:/home/marcos/ros2_ws/install/my_py_pkg:/home/marcos/ros2_ws/install/exo1_py:/opt/ros/humble /usr/bin/cmake /home/marcos/arduinobot_ws/src/arduinobot_interfaces -DCMAKE_INSTALL_PREFIX=/home/marcos/arduinobot_ws/install/arduinobot_interfaces
+[1.181s] Invoking command in '/home/marcos/arduinobot_ws/build/arduinobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marcos/ros2_ws/install/turtle_catch_them_all:/home/marcos/ros2_ws/install/my_py_pkg:/home/marcos/ros2_ws/install/exo1_py:/opt/ros/humble /usr/bin/cmake --build /home/marcos/arduinobot_ws/build/arduinobot_interfaces -- -j2 -l2
+[1.220s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.228s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.996s] [  5%] Built target arduinobot_interfaces__cpp
+[2.021s] [  7%] [32mBuilding C object CMakeFiles/arduinobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_interfaces/srv/detail/euler_to_quaternion__functions.c.o[0m
+[2.058s] [  7%] Built target ament_cmake_python_copy_arduinobot_interfaces
+[2.085s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.143s] [ 12%] [32mBuilding C object CMakeFiles/arduinobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_interfaces/srv/detail/quaternion_to_euler__functions.c.o[0m
+[2.253s] [ 15%] [32m[1mLinking C shared library libarduinobot_interfaces__rosidl_generator_c.so[0m
+[2.348s] [ 15%] Built target arduinobot_interfaces__rosidl_generator_c
+[2.372s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.786s] [ 20%] [32mBuilding CXX object CMakeFiles/arduinobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arduinobot_interfaces/srv/detail/euler_to_quaternion__type_support.cpp.o[0m
+[2.943s] [ 23%] [32mBuilding CXX object CMakeFiles/arduinobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arduinobot_interfaces/srv/euler_to_quaternion__type_support.cpp.o[0m
+[3.438s] [ 25%] [32mBuilding CXX object CMakeFiles/arduinobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arduinobot_interfaces/srv/quaternion_to_euler__type_support.cpp.o[0m
+[3.510s] [ 28%] [32mBuilding CXX object CMakeFiles/arduinobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arduinobot_interfaces/srv/detail/quaternion_to_euler__type_support.cpp.o[0m
+[3.903s] [ 30%] [32m[1mLinking CXX shared library libarduinobot_interfaces__rosidl_typesupport_cpp.so[0m
+[4.007s] [ 30%] Built target arduinobot_interfaces__rosidl_typesupport_cpp
+[4.032s] [ 33%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.141s] [ 35%] [32m[1mLinking CXX shared library libarduinobot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.254s] [ 35%] Built target arduinobot_interfaces__rosidl_typesupport_introspection_cpp
+[4.279s] [ 38%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.644s] [ 41%] [32mBuilding CXX object CMakeFiles/arduinobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arduinobot_interfaces/srv/detail/euler_to_quaternion__type_support_c.cpp.o[0m
+[5.652s] [ 43%] [32mBuilding C object CMakeFiles/arduinobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_interfaces/srv/detail/euler_to_quaternion__type_support.c.o[0m
+[5.712s] [ 46%] [32mBuilding C object CMakeFiles/arduinobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_interfaces/srv/detail/quaternion_to_euler__type_support.c.o[0m
+[5.761s] [ 48%] [32m[1mLinking C shared library libarduinobot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[5.845s] [ 48%] Built target arduinobot_interfaces__rosidl_typesupport_introspection_c
+[5.880s] [ 51%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.044s] [ 53%] [32mBuilding CXX object CMakeFiles/arduinobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arduinobot_interfaces/srv/detail/quaternion_to_euler__type_support_c.cpp.o[0m
+[6.327s] [ 56%] [32mBuilding CXX object CMakeFiles/arduinobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/arduinobot_interfaces/srv/euler_to_quaternion__type_support.cpp.o[0m
+[6.382s] [ 58%] [32mBuilding CXX object CMakeFiles/arduinobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/arduinobot_interfaces/srv/quaternion_to_euler__type_support.cpp.o[0m
+[6.418s] [ 61%] [32m[1mLinking CXX shared library libarduinobot_interfaces__rosidl_typesupport_c.so[0m
+[6.513s] [ 61%] Built target arduinobot_interfaces__rosidl_typesupport_c
+[6.527s] [ 64%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.825s] [ 66%] [32m[1mLinking CXX shared library libarduinobot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[7.030s] [ 66%] Built target arduinobot_interfaces__rosidl_typesupport_fastrtps_c
+[7.218s] [ 69%] [32mBuilding CXX object CMakeFiles/arduinobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arduinobot_interfaces/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.o[0m
+[7.445s] running egg_info
+[7.445s] creating arduinobot_interfaces.egg-info
+[7.447s] writing arduinobot_interfaces.egg-info/PKG-INFO
+[7.448s] writing dependency_links to arduinobot_interfaces.egg-info/dependency_links.txt
+[7.448s] writing top-level names to arduinobot_interfaces.egg-info/top_level.txt
+[7.448s] writing manifest file 'arduinobot_interfaces.egg-info/SOURCES.txt'
+[7.454s] reading manifest file 'arduinobot_interfaces.egg-info/SOURCES.txt'
+[7.454s] writing manifest file 'arduinobot_interfaces.egg-info/SOURCES.txt'
+[7.521s] [ 69%] Built target ament_cmake_python_build_arduinobot_interfaces_egg
+[7.544s] [ 71%] [32mBuilding CXX object CMakeFiles/arduinobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arduinobot_interfaces/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.o[0m
+[8.103s] [ 74%] [32m[1mLinking CXX shared library libarduinobot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.200s] [ 74%] Built target arduinobot_interfaces__rosidl_typesupport_fastrtps_cpp
+[8.231s] [ 74%] Built target arduinobot_interfaces
+[8.267s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.860s] [ 76%] Built target arduinobot_interfaces__py
+[8.907s] [ 79%] [32mBuilding C object CMakeFiles/arduinobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/arduinobot_interfaces/srv/_quaternion_to_euler_s.c.o[0m
+[8.912s] [ 82%] [32mBuilding C object CMakeFiles/arduinobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/arduinobot_interfaces/srv/_euler_to_quaternion_s.c.o[0m
+[9.114s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/arduinobot_interfaces/libarduinobot_interfaces__rosidl_generator_py.so[0m
+[9.193s] [ 84%] Built target arduinobot_interfaces__rosidl_generator_py
+[9.249s] [ 89%] [32mBuilding C object CMakeFiles/arduinobot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/arduinobot_interfaces/_arduinobot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.250s] [ 89%] [32mBuilding C object CMakeFiles/arduinobot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/arduinobot_interfaces/_arduinobot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.438s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/arduinobot_interfaces/arduinobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.507s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/arduinobot_interfaces/arduinobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.539s] [ 94%] Built target arduinobot_interfaces__rosidl_typesupport_introspection_c__pyext
+[9.576s] [ 94%] Built target arduinobot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[9.580s] [ 97%] [32mBuilding C object CMakeFiles/arduinobot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/arduinobot_interfaces/_arduinobot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[9.736s] [100%] [32m[1mLinking C shared library rosidl_generator_py/arduinobot_interfaces/arduinobot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.797s] [100%] Built target arduinobot_interfaces__rosidl_typesupport_c__pyext
+[9.820s] Invoked command in '/home/marcos/arduinobot_ws/build/arduinobot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marcos/ros2_ws/install/turtle_catch_them_all:/home/marcos/ros2_ws/install/my_py_pkg:/home/marcos/ros2_ws/install/exo1_py:/opt/ros/humble /usr/bin/cmake --build /home/marcos/arduinobot_ws/build/arduinobot_interfaces -- -j2 -l2
+[9.963s] Invoking command in '/home/marcos/arduinobot_ws/build/arduinobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marcos/ros2_ws/install/turtle_catch_them_all:/home/marcos/ros2_ws/install/my_py_pkg:/home/marcos/ros2_ws/install/exo1_py:/opt/ros/humble /usr/bin/cmake --install /home/marcos/arduinobot_ws/build/arduinobot_interfaces
+[9.977s] -- Install configuration: ""
+[9.977s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/ament_index/resource_index/rosidl_interfaces/arduinobot_interfaces
+[9.978s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces
+[9.978s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/msg
+[9.978s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[9.982s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv
+[9.982s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/quaternion_to_euler.h
+[9.982s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/detail
+[9.982s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/detail/quaternion_to_euler__type_support.h
+[9.982s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/detail/quaternion_to_euler__struct.h
+[9.982s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/detail/euler_to_quaternion__type_support.h
+[9.982s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/detail/euler_to_quaternion__struct.h
+[9.982s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/detail/quaternion_to_euler__functions.h
+[9.982s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/detail/quaternion_to_euler__functions.c
+[9.982s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/detail/euler_to_quaternion__functions.h
+[9.982s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/detail/euler_to_quaternion__functions.c
+[9.982s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/euler_to_quaternion.h
+[9.982s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/environment/library_path.sh
+[9.983s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/environment/library_path.dsv
+[9.983s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/lib/libarduinobot_interfaces__rosidl_generator_c.so
+[9.983s] -- Set runtime path of "/home/marcos/arduinobot_ws/install/arduinobot_interfaces/lib/libarduinobot_interfaces__rosidl_generator_c.so" to ""
+[9.983s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces
+[9.983s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/msg
+[9.983s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.983s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv
+[9.983s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/detail
+[9.983s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/detail/quaternion_to_euler__rosidl_typesupport_fastrtps_c.h
+[9.983s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/detail/euler_to_quaternion__rosidl_typesupport_fastrtps_c.h
+[9.983s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/lib/libarduinobot_interfaces__rosidl_typesupport_fastrtps_c.so
+[9.983s] -- Set runtime path of "/home/marcos/arduinobot_ws/install/arduinobot_interfaces/lib/libarduinobot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[9.983s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces
+[9.983s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/msg
+[9.983s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.983s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv
+[9.983s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/detail
+[9.983s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/detail/euler_to_quaternion__type_support.c
+[9.983s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/detail/euler_to_quaternion__rosidl_typesupport_introspection_c.h
+[9.983s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/detail/quaternion_to_euler__type_support.c
+[9.983s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/detail/quaternion_to_euler__rosidl_typesupport_introspection_c.h
+[9.984s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/lib/libarduinobot_interfaces__rosidl_typesupport_introspection_c.so
+[9.984s] -- Set runtime path of "/home/marcos/arduinobot_ws/install/arduinobot_interfaces/lib/libarduinobot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[9.984s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/lib/libarduinobot_interfaces__rosidl_typesupport_c.so
+[9.984s] -- Set runtime path of "/home/marcos/arduinobot_ws/install/arduinobot_interfaces/lib/libarduinobot_interfaces__rosidl_typesupport_c.so" to ""
+[9.984s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces
+[9.984s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv
+[9.988s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/quaternion_to_euler.hpp
+[9.988s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/detail
+[9.988s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/detail/quaternion_to_euler__traits.hpp
+[9.988s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/detail/euler_to_quaternion__struct.hpp
+[9.988s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/detail/euler_to_quaternion__traits.hpp
+[9.988s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/detail/euler_to_quaternion__builder.hpp
+[9.988s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/detail/quaternion_to_euler__builder.hpp
+[9.988s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/detail/quaternion_to_euler__struct.hpp
+[9.988s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/euler_to_quaternion.hpp
+[9.988s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces
+[9.989s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/msg
+[9.989s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.989s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv
+[9.989s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/detail
+[9.989s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/detail/dds_fastrtps
+[9.989s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/detail/quaternion_to_euler__rosidl_typesupport_fastrtps_cpp.hpp
+[9.989s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/detail/euler_to_quaternion__rosidl_typesupport_fastrtps_cpp.hpp
+[9.989s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/lib/libarduinobot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[9.989s] -- Set runtime path of "/home/marcos/arduinobot_ws/install/arduinobot_interfaces/lib/libarduinobot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.989s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces
+[9.989s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv
+[9.989s] -- Up-to-date: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/detail
+[9.989s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/detail/euler_to_quaternion__rosidl_typesupport_introspection_cpp.hpp
+[9.989s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/detail/quaternion_to_euler__rosidl_typesupport_introspection_cpp.hpp
+[9.989s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/detail/euler_to_quaternion__type_support.cpp
+[9.989s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/include/arduinobot_interfaces/arduinobot_interfaces/srv/detail/quaternion_to_euler__type_support.cpp
+[9.989s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/lib/libarduinobot_interfaces__rosidl_typesupport_introspection_cpp.so
+[9.989s] -- Set runtime path of "/home/marcos/arduinobot_ws/install/arduinobot_interfaces/lib/libarduinobot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[9.989s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/lib/libarduinobot_interfaces__rosidl_typesupport_cpp.so
+[9.989s] -- Set runtime path of "/home/marcos/arduinobot_ws/install/arduinobot_interfaces/lib/libarduinobot_interfaces__rosidl_typesupport_cpp.so" to ""
+[9.989s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/environment/pythonpath.sh
+[9.989s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/environment/pythonpath.dsv
+[9.989s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/local/lib/python3.10/dist-packages/arduinobot_interfaces-0.0.0-py3.10.egg-info
+[9.989s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/local/lib/python3.10/dist-packages/arduinobot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[9.989s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/local/lib/python3.10/dist-packages/arduinobot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[9.989s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/local/lib/python3.10/dist-packages/arduinobot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[9.990s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/local/lib/python3.10/dist-packages/arduinobot_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[9.990s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/local/lib/python3.10/dist-packages/arduinobot_interfaces
+[9.990s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/local/lib/python3.10/dist-packages/arduinobot_interfaces/arduinobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.992s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/local/lib/python3.10/dist-packages/arduinobot_interfaces/srv
+[9.992s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/local/lib/python3.10/dist-packages/arduinobot_interfaces/srv/_quaternion_to_euler.py
+[9.992s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/local/lib/python3.10/dist-packages/arduinobot_interfaces/srv/_euler_to_quaternion_s.c
+[9.992s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/local/lib/python3.10/dist-packages/arduinobot_interfaces/srv/_quaternion_to_euler_s.c
+[9.992s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/local/lib/python3.10/dist-packages/arduinobot_interfaces/srv/__init__.py
+[9.992s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/local/lib/python3.10/dist-packages/arduinobot_interfaces/srv/_euler_to_quaternion.py
+[9.992s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/local/lib/python3.10/dist-packages/arduinobot_interfaces/_arduinobot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[9.993s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/local/lib/python3.10/dist-packages/arduinobot_interfaces/__init__.py
+[9.993s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/local/lib/python3.10/dist-packages/arduinobot_interfaces/_arduinobot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.993s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/local/lib/python3.10/dist-packages/arduinobot_interfaces/arduinobot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.993s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/local/lib/python3.10/dist-packages/arduinobot_interfaces/libarduinobot_interfaces__rosidl_generator_py.so
+[9.993s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/local/lib/python3.10/dist-packages/arduinobot_interfaces/arduinobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.993s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/local/lib/python3.10/dist-packages/arduinobot_interfaces/_arduinobot_interfaces_s.ep.rosidl_typesupport_c.c
+[10.035s] Listing '/home/marcos/arduinobot_ws/install/arduinobot_interfaces/local/lib/python3.10/dist-packages/arduinobot_interfaces'...
+[10.035s] Compiling '/home/marcos/arduinobot_ws/install/arduinobot_interfaces/local/lib/python3.10/dist-packages/arduinobot_interfaces/__init__.py'...
+[10.035s] Listing '/home/marcos/arduinobot_ws/install/arduinobot_interfaces/local/lib/python3.10/dist-packages/arduinobot_interfaces/srv'...
+[10.035s] Compiling '/home/marcos/arduinobot_ws/install/arduinobot_interfaces/local/lib/python3.10/dist-packages/arduinobot_interfaces/srv/__init__.py'...
+[10.036s] Compiling '/home/marcos/arduinobot_ws/install/arduinobot_interfaces/local/lib/python3.10/dist-packages/arduinobot_interfaces/srv/_euler_to_quaternion.py'...
+[10.036s] Compiling '/home/marcos/arduinobot_ws/install/arduinobot_interfaces/local/lib/python3.10/dist-packages/arduinobot_interfaces/srv/_quaternion_to_euler.py'...
+[10.042s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/local/lib/python3.10/dist-packages/arduinobot_interfaces/arduinobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.042s] -- Set runtime path of "/home/marcos/arduinobot_ws/install/arduinobot_interfaces/local/lib/python3.10/dist-packages/arduinobot_interfaces/arduinobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.042s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/local/lib/python3.10/dist-packages/arduinobot_interfaces/arduinobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.043s] -- Set runtime path of "/home/marcos/arduinobot_ws/install/arduinobot_interfaces/local/lib/python3.10/dist-packages/arduinobot_interfaces/arduinobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.043s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/local/lib/python3.10/dist-packages/arduinobot_interfaces/arduinobot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.043s] -- Set runtime path of "/home/marcos/arduinobot_ws/install/arduinobot_interfaces/local/lib/python3.10/dist-packages/arduinobot_interfaces/arduinobot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.043s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/lib/libarduinobot_interfaces__rosidl_generator_py.so
+[10.043s] -- Set runtime path of "/home/marcos/arduinobot_ws/install/arduinobot_interfaces/lib/libarduinobot_interfaces__rosidl_generator_py.so" to ""
+[10.044s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/srv/EulerToQuaternion.idl
+[10.044s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/srv/QuaternionToEuler.idl
+[10.044s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/srv/EulerToQuaternion.srv
+[10.044s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/srv/EulerToQuaternion_Request.msg
+[10.044s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/srv/EulerToQuaternion_Response.msg
+[10.044s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/srv/QuaternionToEuler.srv
+[10.044s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/srv/QuaternionToEuler_Request.msg
+[10.044s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/srv/QuaternionToEuler_Response.msg
+[10.045s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/ament_index/resource_index/package_run_dependencies/arduinobot_interfaces
+[10.046s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/ament_index/resource_index/parent_prefix_path/arduinobot_interfaces
+[10.046s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/environment/ament_prefix_path.sh
+[10.046s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/environment/ament_prefix_path.dsv
+[10.046s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/environment/path.sh
+[10.046s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/environment/path.dsv
+[10.046s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/local_setup.bash
+[10.046s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/local_setup.sh
+[10.046s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/local_setup.zsh
+[10.048s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/local_setup.dsv
+[10.048s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/package.dsv
+[10.048s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/ament_index/resource_index/packages/arduinobot_interfaces
+[10.048s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/cmake/export_arduinobot_interfaces__rosidl_generator_cExport.cmake
+[10.048s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/cmake/export_arduinobot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[10.048s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/cmake/export_arduinobot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[10.048s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/cmake/export_arduinobot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.048s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/cmake/arduinobot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[10.048s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/cmake/arduinobot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.048s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/cmake/arduinobot_interfaces__rosidl_typesupport_cExport.cmake
+[10.048s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/cmake/arduinobot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[10.048s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/cmake/export_arduinobot_interfaces__rosidl_generator_cppExport.cmake
+[10.048s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/cmake/export_arduinobot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.048s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/cmake/export_arduinobot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.048s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/cmake/arduinobot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[10.048s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/cmake/arduinobot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.048s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/cmake/arduinobot_interfaces__rosidl_typesupport_cppExport.cmake
+[10.048s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/cmake/arduinobot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[10.049s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/cmake/export_arduinobot_interfaces__rosidl_generator_pyExport.cmake
+[10.049s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/cmake/export_arduinobot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[10.049s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/cmake/rosidl_cmake-extras.cmake
+[10.049s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.049s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[10.049s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[10.049s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.049s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.049s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.051s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/cmake/arduinobot_interfacesConfig.cmake
+[10.051s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/cmake/arduinobot_interfacesConfig-version.cmake
+[10.051s] -- Installing: /home/marcos/arduinobot_ws/install/arduinobot_interfaces/share/arduinobot_interfaces/package.xml
+[10.055s] Invoked command in '/home/marcos/arduinobot_ws/build/arduinobot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marcos/ros2_ws/install/turtle_catch_them_all:/home/marcos/ros2_ws/install/my_py_pkg:/home/marcos/ros2_ws/install/exo1_py:/opt/ros/humble /usr/bin/cmake --install /home/marcos/arduinobot_ws/build/arduinobot_interfaces

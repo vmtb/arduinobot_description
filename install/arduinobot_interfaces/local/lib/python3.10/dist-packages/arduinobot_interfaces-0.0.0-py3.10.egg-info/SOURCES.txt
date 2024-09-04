@@ -1,0 +1,9 @@
+setup.py
+arduinobot_interfaces/__init__.py
+arduinobot_interfaces.egg-info/PKG-INFO
+arduinobot_interfaces.egg-info/SOURCES.txt
+arduinobot_interfaces.egg-info/dependency_links.txt
+arduinobot_interfaces.egg-info/top_level.txt
+arduinobot_interfaces/srv/__init__.py
+arduinobot_interfaces/srv/_euler_to_quaternion.py
+arduinobot_interfaces/srv/_quaternion_to_euler.py
