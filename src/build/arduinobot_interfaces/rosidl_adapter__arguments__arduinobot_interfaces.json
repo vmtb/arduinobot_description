@@ -1,0 +1,7 @@
+{
+  "package_name": "arduinobot_interfaces",
+  "non_idl_tuples": [
+    "/home/marcos/arduinobot_ws/src/arduinobot_interfaces:srv/EulerToQuaternion.srv",
+    "/home/marcos/arduinobot_ws/src/arduinobot_interfaces:srv/QuaternionToEuler.srv"
+  ]
+}
